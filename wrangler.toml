@@ -3,7 +3,7 @@ main = "build/worker/shim.mjs"
 compatibility_date = "2025-07-05"
 
 [build]
-command = "cargo install -q worker-build && worker-build --release"
+command = "cargo install -q worker-build --version 0.1.2 --locked && worker-build --release"
 
 [vars]
 DEFAULT_SYSTEM_MSG = "You are an expert AI assistant specialized in technical support."
