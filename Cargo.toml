@@ -19,6 +19,6 @@ crate-type = ["cdylib"]
 
 [dependencies]
 worker = { version = "0.6.0" }
-worker-macros = { version = "0.6.0" }
+worker-macros = { version = "0.8.7" }
 console_error_panic_hook = { version = "0.1.7" }
 serde_json = "1.0"
